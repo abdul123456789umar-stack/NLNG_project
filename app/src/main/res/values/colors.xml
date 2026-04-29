@@ -15,6 +15,7 @@
     <color name="text_secondary">#6B7280</color>
     <color name="white">#FFFFFF</color>
     <color name="white_70">#B3FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
     <color name="black">#000000</color>
 
     <!-- Card colours for dashboard tiles -->
