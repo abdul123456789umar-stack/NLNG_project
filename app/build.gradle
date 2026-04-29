@@ -111,11 +111,11 @@ dependencies {
     //
     // NOTE: com.anggrayudi:android-llama.cpp is not published to Maven Central.
     // The most battle-tested JitPack option is the official llama.cpp repo:
-    //   implementation 'com.github.ggerganov:llama.cpp:b3958'  // pin to a stable tag
+    //   // implementation 'com.github.ggerganov:llama.cpp:b3958'  // pin to a stable tag
     //
     // Until a stable AAR release is available you have two options:
     //   OPTION A – JitPack (pinned commit/tag, requires network on first Gradle sync):
-    implementation 'com.github.ggerganov:llama.cpp:b3958'
+    // implementation 'com.github.ggerganov:llama.cpp:b3958'
     //
     //   OPTION B – Local AAR (place the AAR in app/libs/ and comment out OPTION A):
     //   implementation files('libs/llama-android.aar')
@@ -126,7 +126,7 @@ dependencies {
     //
     // JitPack coordinates (requires JitPack maven block in settings.gradle,
     // which is already present):
-    implementation 'com.github.georgenitram:fasttext-android:1.0.0'
+    // implementation 'com.github.georgenitram:fasttext-android:1.0.0'
     //
     // If the JitPack build fails (the repo may not publish a pre-built AAR),
     // fall back to the local AAR option:
